@@ -59,8 +59,8 @@ def poison_target(gateway_ip, gateway_mac, target_ip, target_mac):
 
 def main():
     interface = 'en0'
-    target_ip = '172.16.0.26'
-    gateway_ip = '172.16.3.254'
+    target_ip = '192.168.3.179'
+    gateway_ip = '192.168.3.1'
     packets_counts = 10000
 
     # configure interface id card
